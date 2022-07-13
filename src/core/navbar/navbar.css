@@ -1,0 +1,44 @@
+/* navbar background css */
+.navbar-container{
+    position: sticky;
+    top: 0;
+    z-index: 200000;
+}
+.bg-light{
+    background-color: #464040 !important;
+}
+
+li>a{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+/* logo-and-name section CSS */
+.logo-section{
+    display: flex;
+    align-items: center;
+}
+.navbar-logo{
+    width: 5rem;
+}
+
+
+
+/* hover dropdown CSS */
+/* .dropdown:hover .dropdown-menu{
+    display: block;
+} */
+
+
+/* media qury when the max screen size is 1200px */
+@media only screen and (max-width: 1236px) {
+}
+@media only screen and (max-width: 1160px) {
+}
+
+/* media query to enable the hover on the menubar and hide it when the hamburger is on */
+@media only screen and (min-width: 992px) {
+    .dropdown:hover .dropdown-menu{
+        display: block;
+    }
+}

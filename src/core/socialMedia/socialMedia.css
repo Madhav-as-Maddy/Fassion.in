@@ -1,0 +1,6 @@
+/* Large devices (desktops, 992px and bellow) */
+@media only screen and (max-width: 992px) {
+    .social-media-container{
+        display: none;
+    }
+}

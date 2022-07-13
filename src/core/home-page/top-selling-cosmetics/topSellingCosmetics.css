@@ -1,0 +1,30 @@
+.top-selling-cosmetic-section {
+    margin: 1rem 2rem;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.2);
+}
+
+.top-product-list{
+    width: 90% !important;
+}
+
+/* design the arrow in proper format */
+.slick-prev, .slick-next {
+    color: rgb(8, 8, 8);
+    width: 27px;
+    height: 30px;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: rgb(8, 8, 8);
+}
+
+.slick-track {
+    margin: 1rem 0rem 2rem auto;
+    display: flex;
+    justify-content: center;
+}
+

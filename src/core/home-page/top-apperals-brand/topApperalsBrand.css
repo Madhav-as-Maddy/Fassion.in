@@ -1,0 +1,36 @@
+.brands-logo-section {
+    margin: 1rem 2rem;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.2);
+}
+
+
+/* design the arrow in proper format */
+.slick-prev, .slick-next {
+    color: rgb(8, 8, 8);
+    width: 27px;
+    height: 30px;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: rgb(8, 8, 8);
+}
+
+/* set the image size in the rounded format */
+.brands-logo{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.brands-logo>img {
+    border-radius: 50%;
+    max-width: 10rem;
+}
+.slick-track{
+    margin: 1rem 0rem 2rem auto;
+    display: flex;    
+    justify-content: center;
+}
